@@ -1,0 +1,150 @@
+@import url("prosto.css");
+@font-face {
+    font-family: normalShrift;
+    src: url(normalShrift.woff) format(woff);
+}
+.mg{
+    background: linear-gradient(180deg, rgb(3, 125, 247), white);
+}
+img{
+    float: left;
+    margin-right: 20px;
+}
+h1{
+    margin-top: 100px;
+    text-align: center;
+}
+p {
+    font-size: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+ol{
+    font-size: 125%;
+    margin-left: 600px;
+    
+}
+
+b{
+    font-size: 125%;
+}
+
+
+video{
+    
+    margin-block: 20px;
+}
+
+a{
+    color: cornflowerblue;
+    font-size: 200%;
+    transition-property: color;
+    transition-duration: 0.8s ;
+}
+
+a:hover{
+    color: crimson;
+}
+
+.ger{
+    background-color: blue;
+    height: 300px;
+    width: 30%;
+    transition-duration: 0.8s ;
+}
+
+.ger:hover{
+    background-color: rgb(166, 246, 255);
+    width: 100%;
+}
+
+
+
+.mega{
+    margin-right: 200px;
+    margin-left: 200px;
+}
+ul{
+    font-size: 10px;
+}
+.menu {
+    left: 0%;
+    top: 0%;
+    position: fixed;
+	width: 100%;
+	display: table;
+}
+.menu ul {
+    
+	display: table-row;
+}
+.menu li {
+    
+	display: table-cell;
+	position: relative;
+	background: #2767A0;
+}
+.menu li a {
+    text-decoration: none;
+	display: block;
+	padding: 15px 15px;
+	color: darkblue;
+	text-align: center;
+}
+.menu-caret:after { 
+	display: inline-block;
+	width: 0;
+	height: 0;
+	margin-left: .255em;
+	vertical-align: .255em;
+	content: "";
+	border-top: 5px solid;
+	border-right: 5px solid transparent;
+	border-bottom: 0;
+	border-left: 5px solid transparent;
+}
+.menu a:hover {
+	background: rgb(184, 233, 247); 
+    
+}
+.menu li:hover ul  {
+	display: block;
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	background: #2767A0;
+	margin: 0;
+	padding: 0px 0px;
+	width: 0px;
+	z-index: 9999;
+}
+.menu ul ul  {
+	display: none;
+    
+}
+.menu ul ul li  {
+	display: block;
+	background: #2767A0;
+	padding: 0px 0;
+    height: 30px;
+    width: 300px;
+}
+
+.menu ul ul li a  {
+	display: block;
+	padding: 5px 10px;
+	background: #2767A0;
+	text-align: center;
+}   
+    
+.menu ul ul li a:hover{
+    color: black;
+}
+.menu ul li:hover{
+    color: #2767A0;
+}
